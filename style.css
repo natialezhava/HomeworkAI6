@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+p {
+    font-size: 16px;
+}
+section {
+    background-color: white;
+    width: 700px;
+    padding: 50px;
+    margin: 0 auto;
+    border: solid white;
+    border-radius: 20px;
+}
+body {
+    background-color: antiquewhite;
+}
+
+article > h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+article > p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+ul > li > span {
+    font-weight: bolder;
+}
+.prediv {
+    background-color:hsl(330, 100%, 98%);
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.prediv > h2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: darkmagenta;
+}
+.prediv > ul > li {
+    margin-bottom: 10px;
+}
+
+/* ingredients */
+.ingredients > h2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+.ingredients > ul > li {
+    margin-bottom: 10px;
+}
+hr {
+    margin-top: 40px;
+}
+
+/* div 4 - instructions */
+.instructions > h2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: darkred;
+    margin-top: 30px;
+}
+.instructions > ol > li > span {
+    font-weight: bolder;
+}
+.instructions > ol > li {
+    line-height: 1.8;
+}
+
+/* nutrition */
+.div5 > h2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: darkred;
+    margin-top: 30px;
+}
+.nutrition > div {
+    display: flex;
+}
+.nutrition > div > p {
+    margin-right: 200px;
+}
+.div5 > p {
+    margin-bottom: 10px;
+}
